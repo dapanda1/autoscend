@@ -14,6 +14,7 @@ void ag_initializeSettings()
 		}
 		set_property("auto_skipUnlockGuild", true);
 		set_property("auto_nonAdvLoc", false);
+		set_property("auto_100familiar","Burly Bodyguard");
 		if(auto_turbo())
 		{
 			set_property("auto_skipNuns", "true");
